@@ -1,9 +1,7 @@
-import supertest from 'supertest';
+import awsReq from '../config/common.js';
 import { expect } from 'chai';
 import dotenv from 'dotenv';
 dotenv.config();
-
-const awsReq = supertest('https://07ykrk0x35.execute-api.us-east-1.amazonaws.com/dev/');
 const AWSTOKEN = process.env.AWSTOKEN;
 
 describe('endGame', () => {

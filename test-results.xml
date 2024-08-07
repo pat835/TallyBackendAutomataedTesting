@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="1.060" tests="2" failures="0">
-  <testsuite name="Root Suite" timestamp="2024-08-07T16:05:13" tests="0" time="0.000" failures="0">
+<testsuites name="Mocha Tests" time="2.148" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-08-07T17:11:32" tests="0" time="0.000" failures="0">
   </testsuite>
-  <testsuite name="endGame" timestamp="2024-08-07T16:05:13" tests="2" file="/Users/danachang/Documents/GitHub/TallyBackendAutomatedTesting/test/endGame.js" time="1.060" failures="0">
-    <testcase name="endGame POST /endGame success" time="0.856" classname="POST /endGame success">
+  <testsuite name="endGame" timestamp="2024-08-07T17:11:32" tests="2" file="/Users/danachang/Documents/GitHub/TallyBackendAutomatedTesting/test/endGame.js" time="2.147" failures="0">
+    <testcase name="endGame POST /endGame success" time="1.910" classname="POST /endGame success">
     </testcase>
-    <testcase name="endGame POST /endGame missing gameSessionId" time="0.201" classname="POST /endGame missing gameSessionId">
+    <testcase name="endGame POST /endGame missing gameSessionId" time="0.233" classname="POST /endGame missing gameSessionId">
     </testcase>
   </testsuite>
 </testsuites>
