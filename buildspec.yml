@@ -1,0 +1,25 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14
+    commands:
+      - echo Installing source NPM dependencies...
+      - npm install
+
+  build:
+    commands:
+      - echo Running tests...
+      - npm run test-junit
+
+  post_build:
+    commands:
+      - echo Build and test steps completed.
+
+reports:
+  mochawesome-report-group: #mochawesome junit reports
+    files:
+      - '*.xml'
+    file-format: "JUNITXML"
+    discard-paths: false
