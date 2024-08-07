@@ -21,7 +21,6 @@ describe('endGame', () => {
             });
     });
 
-    
     it('POST /endGame missing gameSessionId', () => {
         const data = { "game": "0D453C5E-971C-4E7E-B397-42870FBE76B5" };
         return awsReq
