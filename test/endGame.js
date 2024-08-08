@@ -13,7 +13,7 @@ describe('endGame', () => {
                 .set('x-api-key', AWSTOKEN)
                 .send(data)
                 .then((res) => {
-                    console.log(res.body);
+                    // console.log(res.body);
                     // expect(res.body.data).to.deep.include(data);
                     expect(res.body.statusCode).to.eq(200);
                     expect(res.body.body).to.eq('Success!');
